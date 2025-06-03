@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NoBroker Style Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body >
+
+<nav class="navbar navbar-expand-lg bg-white shadow-sm px-4">
+  <a class="navbar-brand d-flex align-items-center" href="#">
+    <img src="images/nobroker-logo.jpg" alt="NoBroker Logo" height="35">
+    <span class="ms-2 fw-bold text-dark">NOBROKER</span>
+  </a>
+  <div class="ms-auto d-flex align-items-center">
+    <a href="#" class="pay-rent me-3">
+      <img src="images/credit-icom.png" height="35" width="35"/>
+      Pay Rent
+    </a>
+    <a href="#" class="btn btn-property me-3">For Property owners</a>
+    <a href="#" class="me-3 text-dark text-decoration-none">Sign up</a>
+    <a href="#" class="me-3 text-dark text-decoration-none">Log in</a>
+    <button class="btn btn-link text-dark fs-4">&#9776; Menu</button>
+  </div>
+</nav>
+
+
+<div class="container text-center my-5">
+  <h2 class="fw-light">World's Largest NoBrokerage Property Site</h2>
+
+
+  <div class="highlight-box my-4 justify-content-center">
+    <div><img src="https://img.icons8.com/ios-filled/24/document--v1.png"/> Rental Agreement</div>
+    <div>|</div>
+    <div><img src="https://img.icons8.com/ios-filled/24/delivery.png"/> Next Day Delivery</div>
+  </div>
+
+    <div class="tabs-custom d-flex justify-content-center mb-3">
+    <button class="active btn-group" role="group" aria-label="Tabs">Rent</button>
+    <button class="btn btn-group-light text-decoration-none" role="group" aria-label="Tabs">Buy</button>
+    <button class="btn btn-group-light text-decoration-none" role="group" aria-label="Tabs">Commercial</button>
+  </div>
+
+
+  <div class="search-bar mx-auto" style="max-width: 1000px;">
+    <div class="row g-0">
+      <div class="col-md-2">
+        <select class="form-select">
+          <option selected>Bangalore</option>
+          <option>Pune</option>
+          <option>Mumbai</option>
+        </select>
+      </div>
+      <div class="col-md-6">
+        <input type="text" class="form-control" placeholder="Search upto 3 localities or landmarks">
+      </div>
+      <div class="col-md-2">
+        <select class="form-select">
+          <option selected>BHK Type</option>
+          <option>1 BHK</option>
+          <option>2 BHK</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <button class="btn search-btn w-100">
+          🔍 Search
+        </button>
+      </div>
+    </div>
+
+    <div class="radio-group d-flex justify-content-start align-items-center mt-3">
+      <div class="form-check me-3">
+        <input class="form-check-input" type="radio" name="type" id="full" checked>
+        <label class="form-check-label text-success" for="full">Full House</label>
+      </div>
+      <div class="form-check me-3">
+        <input class="form-check-input" type="radio" name="type" id="pg">
+        <label class="form-check-label" for="pg">PG/Hostel</label>
+      </div>
+      <div class="form-check me-3">
+        <input class="form-check-input" type="radio" name="type" id="flatmates">
+        <label class="form-check-label" for="flatmates">Flatmates</label>
+      </div>
+    </div>
+  </div>
+
+  <div class="post-section">
+    <hr />
+    <span class="text-muted">Are you a Property Owner?</span>
+    <hr />
+    <div class="mt-3">
+      <button class="btn btn-property px-4 py-2">Post Free Property Ad</button>
+    </div>
+  </div>
+</div>
+</body>
+</html>
